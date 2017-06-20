@@ -1,6 +1,6 @@
 public class prime {
 public static void main(String args []){
-	int num;
+	int a;
 	int i;
 	int count=0;
 	System.out.println("enter the number:");
@@ -10,7 +10,7 @@ public static void main(String args []){
 	
 	
 		
-		if(num%i==0){
+		if(a%i==0){
 			count++;
 		break;
 			
